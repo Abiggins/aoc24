@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AndrewBiggins\\.nuget\\packages\\": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AndrewBiggins\\Documents\\Git\\aoc24\\day1\\day1.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\git\\aoc24\\day1\\day1.csproj",
       "projectName": "day1",
-      "projectPath": "C:\\Users\\AndrewBiggins\\Documents\\Git\\aoc24\\day1\\day1.csproj",
-      "packagesPath": "C:\\Users\\AndrewBiggins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AndrewBiggins\\Documents\\Git\\aoc24\\day1\\obj\\",
+      "projectPath": "C:\\Users\\andre\\git\\aoc24\\day1\\day1.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\git\\aoc24\\day1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AndrewBiggins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

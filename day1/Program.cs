@@ -21,27 +21,24 @@ leftList.Sort();
 rightList.Sort();
 
 int sum = 0;
+int probabilityScore = 0;
 for (int i = 0; i < leftList.Count; i++)
 {
     sum += Math.Abs(leftList[i] - rightList[i]);
-}
-
-Console.WriteLine(sum);
-
-int probabilityScore = 0;
-foreach (int leftNum in leftList)
-{
     int count = 0;
     int value = 0;
+
     foreach (int rightNum in rightList)
     {
-        if (leftNum == rightNum)
+        if (leftList[i] == rightNum)
         {
             count++;
         }
     }
-    value = leftNum * count;
+    value = leftList[i] * count;
     probabilityScore += value;
 }
 
+Console.WriteLine(sum);
 Console.WriteLine(probabilityScore);
+
